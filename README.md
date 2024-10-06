@@ -1,2 +1,3 @@
-Theme - Gamification in Education 
+SubTheme - Gamification in Education 
 Problem Statement - How might we develop a platform for students to engage their leisure time on education through VIRTUAL REALITY in the form of games. This website specifies about the students  play games related to the topic. The upcoming developments of the existing project will be exploring the concepts related to education through AR/VR and if the student raise any query, the AI assistant will solve the student query in return.
+Impact to be created - This website will engage the students while learning key concepts using gamification and visualizing the concepts using AR/VR. Through this, the students will be able to visualize and be clear with the concepts. 
