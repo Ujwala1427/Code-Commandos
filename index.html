@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAMO COSMOS - Educational VR Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar-classic">
+            <div class="nav-left">
+                <!-- Update the src attribute to point to the logo in the root directory -->
+                <img src="logo.png" alt="CC Logo" class="logo">
+            </div>
+            <div class="nav-center">
+                <h1>CRAMO COSMOS</h1>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#vr-experience">VR Experience</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#ai-assistant">AI Assistant</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to CRAMO COSMOS</h2>
+            <p>Explore the world of education through virtual reality for grades 7-12.</p>
+        </section>
+
+        <section id="vr-experience">
+            <h2>VR Educational Experience</h2>
+            <p>Immerse yourself in our virtual reality educational content:</p>
+            <div class="subtopic-card">
+                <h3>Interactive 3D Models</h3>
+                <p>Explore complex concepts through manipulable 3D models.</p>
+            </div>
+            <div class="subtopic-card">
+                <h3>Virtual Laboratories</h3>
+                <p>Conduct experiments in a safe, virtual environment.</p>
+            </div>
+            <div class="subtopic-card">
+                <h3>Historical Reconstructions</h3>
+                <p>Step back in time and experience historical events firsthand.</p>
+            </div>
+            <div class="subtopic-card">
+                <h3>Mathematical Visualizations</h3>
+                <p>See abstract mathematical concepts come to life in 3D space.</p>
+            </div>
+            <button class="cta-button">Start VR Experience</button>
+        </section>
+
+        <section id="games">
+            <h2>Educational Games</h2>
+            <p>Learn while having fun with our educational games:</p>
+            <div class="game-grid">
+                <div class="game-card">Math Challenge</div>
+                <div class="game-card">Science Quiz</div>
+                <div class="game-card">Historical Adventure</div>
+                <div class="game-card">Language Puzzles</div>
+            </div>
+        </section>
+
+        <section id="ai-assistant">
+            <h2>AI Assistant</h2>
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <div id="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask a question...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CRAMO COSMOS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="math-challenge.js"></script>
+</body>
+</html>
